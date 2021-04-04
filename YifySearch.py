@@ -2,7 +2,7 @@
 """
 Created on Fri Nov  6 11:35:31 2020
 
-@author: Saddam
+@author: ktifler
 """
 
 from bs4 import BeautifulSoup
@@ -11,7 +11,7 @@ from selenium import webdriver
 import os
 from time import sleep
 
-#import re
+
 def make_url(name):
     URL = "https://yts.mx/"
     search_query = "browse-movies/"
@@ -25,14 +25,12 @@ def get_page(url):
     page=requests.get(url,headers=hdr)
     soup = BeautifulSoup(page.content,'html.parser')
     return page,soup
-#p,s=get_page(final_url)
+
 
 def get_movies_names(name):
     result_dict=dict()
     page,soup = get_page(make_url(name))
-#    pds=pd.read_html(page.content)
     query_results = soup.find_all("div",class_="browse-movie-wrap col-xs-10 col-sm-4 col-md-5 col-lg-4")
-#    print(query_results)
     for entity in query_results:
         entity1=entity.find("div",class_="browse-movie-bottom").a
         result_dict[entity1.string]=entity1['href']
@@ -54,7 +52,6 @@ def get_donwload_url(url):
     tabs = DRIVER.window_handles
     DRIVER.switch_to.window(tabs[0])
     print('(X]Current url ----->', DRIVER.current_url)
-    #DRIVER.switch_to.window(DRIVER.window_handles[0])
     page_source = DRIVER.page_source
     DRIVER.quit()
     soup=BeautifulSoup(page_source,'html.parser')
