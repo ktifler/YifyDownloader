@@ -57,9 +57,9 @@ An automated script to search and download movies from the giant yify.
 
 ### Built With
 
-* [Python](Python.org)
-* [BeautifulSoup]()
-* [selenium]()
+* Python
+* BeautifulSoup
+* selenium
 
 
 
@@ -136,8 +136,9 @@ Please note that we are not responsible of any misuse of this script.
 
 <!-- CONTACT -->
 ## Contact
+if you need any help in web scraping project please check our Fiverr 
 
-Alktif Saddam - [linkedin_url](https://www.linkedin.com/in/saddam-alktif-6526351b7/) 
+malktif - [Fiverr](https://www.fiverr.com/malktif) 
 
 Project Link: [https://github.com/ktifler/YifyDownloader](https://github.com/ktifler/YifyDownloader)
 
