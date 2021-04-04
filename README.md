@@ -70,7 +70,12 @@ you need to have python installed
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+things you need to installand how to install them.
+* Chrome webdriver
+
+  avaliable at <a href="https://chromedriver.chromium.org/downloads">chromedriver.chromium.org</a>
+  
+* any torrent client
 * Beatifulsoup
   ```sh
   pip install beautifulsoup4
@@ -79,9 +84,7 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   pip install selenium
   ```  
-*Chrome webdriver
-  avaliable at <a href="https://chromedriver.chromium.org/downloads">chromedriver.chromium</a>
-*a torrent client
+
 ### Installation
 
 1. Clone the repo or download directly the files needed
@@ -147,7 +150,5 @@ Project Link: [https://github.com/ktifler/YifyDownloader](https://github.com/kti
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+
 
