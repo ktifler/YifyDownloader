@@ -59,7 +59,7 @@ An automated script to search and download movies from the giant yify.
 
 * Python
 * BeautifulSoup
-* selenium
+* <del>selenium</del>
 
 
 
@@ -71,27 +71,24 @@ you need to have python installed
 ### Prerequisites
 
 things you need to installand how to install them.
-* Chrome webdriver
-
-  avaliable at <a href="https://chromedriver.chromium.org/downloads">chromedriver.chromium.org</a>
+* <del>Chrome webdriver</del>
   
 * any torrent client
 * Beatifulsoup
   ```sh
   pip install beautifulsoup4
   ```
-* selenium
+* art
   ```sh
-  pip install selenium
+  pip install art
   ```  
-
 ### Installation
 
 1. Clone the repo or download directly the files needed
    ```sh
    git clone https://github.com/ktifler/YifyDownloader
    ```
-2. chromedriver.exe need to be in the same directory as the script.
+2. <del>chromedriver.exe need to be in the same directory as the script.</del>
   
 
 
